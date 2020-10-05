@@ -1,0 +1,669 @@
+.container{ width: 1170px; margin: auto;}
+body{
+	height: 5000px;
+}
+/* start header */
+.header .navbar {
+	background-color: #FFFFFF;
+	color: #CCCED0;
+	overflow: hidden;
+	margin-bottom: 0;
+	
+}
+.header .navbar ul {
+	list-style: none;
+		padding-left: 0;
+margin: 15px;;
+}
+.header .navbar ul li{
+	padding: 10px;
+}
+.header .navbar ul li > input{
+	background-color: #F77D0E;
+	color: #F7F7F7;
+	padding: 5px;
+	font-family : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+	line-height: 21px;
+	border: none;
+	
+
+}
+.header .navbar ul li > input:hover{
+	border-radius: 5px;
+	        cursor: pointer;
+}
+.header .navbar ul li > a{
+text-decoration: none;
+	color: #0e1724;
+    font-family : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+}
+.header .navbar ul li > a:hover{
+	color: #5ABCF4;
+	        cursor: pointer;
+
+}
+.slider{
+	background:url("../photos/love.jpg");
+	background-size: cover;
+		-webkit-background-size: cover;
+	        -moz-background-size: cover;
+	          -o-background-size: cover;
+	height: 600px;
+	margin:0;
+}
+.slider .over-lay {
+	background: rgba(60, 61, 63, 0.61);
+	width: 100%;
+	height: 100%;
+		overflow: hidden;
+}
+.slider .hello {
+    width: 40%;
+}
+.slider .hello h2 {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+	line-height: 56px;
+	color: #fcfcfc;
+	margin-top: 150px;
+	text-align: left;
+} 
+.slider .hello p {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 font-size: 20px;
+	line-height: 28px;
+	color: #E1E1E1;
+}
+.slider .hello input{
+	background: none;
+	border: none;
+	color: #F7F7F7;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+.slider .hello .bot{
+	background-color: #D90082;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #F7F7F7;
+	font-weight: bold;
+	padding: 15px;
+	text-align: center;
+	margin-right: 5px;
+}
+.slider .hello .bot:hover{
+	background-color: rgb(236, 0, 130);
+	cursor: pointer;
+	border-radius: 7px;
+}
+.slider .hello .boot
+{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: F7F7F7;
+	border: 1px solid #DEDEDE;
+	padding: 15px;
+}
+.slider .hello .boot:hover{
+	background-color: rgba(164, 163, 165, 0.2);
+	cursor: pointer;
+	border-radius: 7px;
+}
+.slider .end {
+	float:right;
+}
+.slider .end p{
+	color: #F7F7F7;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+/* end header */
+/* start up */
+.up .nav{
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.up .nav ul{
+	list-style: none;
+}
+.up .nav ul .as {
+	font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #5D6169;
+	font-size: 20px;
+	line-height: 28px;
+margin-top: 10px;	
+}
+.up .nav ul .as:hover{
+		color: #5ABCF4;
+        cursor: pointer;
+}
+.up .nav ul li {
+	padding: 10px;
+}
+.up hr {
+	width: 1170px;
+	color: #DEDEDE;
+	opacity: 0.4;
+	margin-bottom: 70px;
+}
+/* end up */
+/* start part */
+.part {
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+.part .nan h1 {
+	text-align: center;
+	font-size: 48px;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #0e1724;
+	line-height: 56px;
+	margin-top: 45px;
+	margin-bottom: 70px;
+}
+.part .min {
+	width: 33.333333%;
+	overflow: hidden;
+		background-color: #FFFFFF;
+		text-align: center;	
+	     float: left;
+}
+.part .min h3 {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+	line-height: 32px;
+	color: #0e1724;
+}
+.part .min p {
+     text-align: left;
+     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 font-size: 18px;
+	 line-height: 23px;
+	 margin-right: 10px;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+
+/* end part */
+/* start about */
+.about .wh h1{
+	text-align: center;
+	padding-top: 20px;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	line-height: 44px;
+	color: #0e1724;
+	margin-bottom: 60px;
+}
+.about .it {
+	width: 33.333333%;
+	float: left;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.about .it .icon {
+	float: left;
+	width: 15%;
+}
+.about .it .icon img{
+	max-width: 100%;
+	margin: 10px 10px 0 55px;;
+}
+.about .it .dow img{
+	max-width: 100%;
+	margin: 18px 10px 0 55px;;
+}
+.about .it .itt{
+	float: left;
+	width: 85%;
+
+}
+.about .it .itt h2 {
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #0e1724;
+	font-size: 24px;
+	line-height: 32px;
+	margin-left: 55px;
+	
+
+}
+.about .it .itt p{
+			font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 	font-size: 20px;
+		line-height: 28px;
+	float: left;
+	text-align: left;
+	margin-bottom: 50px;
+}
+ 
+/* end about */
+/* start Crowd */
+.Crowd {
+	padding-top: 50px;
+	background-color: #F7F7F7;
+	overflow: hidden;
+	
+}
+
+.Crowd  h2 {
+	text-align: center;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	line-height: 44px;
+	color: #0e1724;
+	
+}
+.Crowd .upp  {
+	
+	background-color: #F7F7F7;
+	margin: 10px;
+		float: left;
+	display: inline;
+
+}
+
+.Crowd .upp > div {
+   width: 33.333333%;
+height: 346px;
+	padding-top: 30px;
+
+}
+.Crowd .wd >img {
+	width: 92%;
+	margin: 10px;
+	margin-bottom: 0;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.Crowd .wd >img:hover {
+	transform: scale(1.07);
+	
+}
+.Crowd .upp .wd .col {
+	background-color: #FFFFFF;
+	margin: 10px;
+	margin-top: 0;
+	width: 92%
+}
+.Crowd .upp .col:hover{
+		transform: scale(1.07);
+
+}
+.Crowd .wd h3 {
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 20px;
+	    line-height: 20px;
+	  color: #0e1724;
+	margin-left: 25px;
+	margin-top: 0;
+    text-transform: capitalize;
+	padding-top: 20px;
+	
+}
+.Crowd .wd p{
+	font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 18px;
+	    line-height: 21px;
+	  color: #000000;
+	margin-left: 25px;
+	padding-bottom: 30px;
+}
+.Crowd .in {
+	text-align: center;
+}
+.Crowd .in > input {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	background: none;
+	border: 1px solid #75787D;
+	padding: 10px;
+	width: 130px;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 20px;
+	color: #0e1724;
+}
+.Crowd .in > input:hover {
+	border-radius: 10px;
+}
+/*end Crowd */
+/* start work */
+.work {
+	overflow: hidden
+}
+.work h2 {
+	text-align: center;
+	margin-top: 100px;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	line-height: 44px;
+	color: #0e1724;
+	margin-bottom: 40px;
+}
+.work .get ul {
+	list-style: none;
+}
+.work .get {
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.work .get .ic {
+	float: left;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+.work .get .ic i {
+	max-width: 100%;
+	margin-top: 22px;
+	color:#007FED;
+	height: 20px;
+}
+.work .get .li {
+	float: left;
+	width: 85%;
+}
+.work .get ul li p {
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+		line-height: 20px;
+        color: #0e1724;
+}
+.work .get ul li p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* end work */
+/* start contact */
+
+.suc .contact  {
+	margin-top: 90px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	width: 49%;
+	background-color: #EFEFF0;
+	margin-right: 1%;
+	height: 288px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.suc .contact  .con-par{
+	width: 10%;
+	float: left;
+	height: 100%;
+	margin-top: 5px;
+}
+.suc .contact .con-parr{
+	text-align: right;
+	width: 40%;
+	margin-right: 20px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 0;
+	padding: 0;
+}
+.suc .contact .con-parr a{
+	color: #007fed;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+ .suc .contact .con-parr a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.suc .contact .con-parr h2{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	color: #0e1724;
+	margin-left:0;
+	text-align: right;
+}
+.suc .contact .con-parr  p{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #0e1724;
+
+}
+.suc .contact .con-parr input {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #F1F4F7;
+	background-color: #007FED;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.suc .contact .con-parr input:hover{
+	background-color: rgb(36, 138, 226);
+	border-radius: 10px;
+}
+/* end contact */
+.Company .flter  {
+	margin-top: 90px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	width: 49%;
+	height: 288px;
+	background-color: #EFEFF0;
+	margin-left: 1%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #ccc;
+	margin-bottom: 30px;
+}
+.Company .flter  .var {
+	width: 10%;
+	float: right;
+	margin-right: 200px;
+}
+.Company .flter .lop{
+	text-align: left;
+	width: 39%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 20px;
+}
+.Company .flter .lop a{
+	color: #007fed;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+ .Company .flter .lop a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.Company .flter .lop h2{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	color: #0e1724;
+	margin-left:0;
+}
+.Company .flter .lop  p{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #0e1724;
+
+}
+.Company .flter .lop input {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #F1F4F7;
+	background-color: #007FED;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.Company .flter .lop input:hover{
+	background-color: rgb(36, 138, 226);
+	border-radius: 10px;
+}
+/* End company */
+/* start foter */
+.foter
+{
+	height: 700px;
+	background-color: #161E2C;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.foter .flo {
+	width: 20%;
+	float: left;
+	margin-right: 120px;
+
+}
+.foter .log img {
+	margin-top: 30px;
+}
+.foter .can {
+	overflow: hidden;
+	margin-top: 25px;																			
+	
+}
+.foter .test {
+	float: left;
+	margin-right: 10px;
+}
+.foter .can .testt a{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #F7F7F7;
+	float: left;
+		margin-top: 3px;
+	text-transform: capitalize;
+
+}
+.foter .can .testt a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+/* start free */
+.foter .lancer {
+	width: 14.8%;
+	overflow: hidden;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.foter .lancer h2{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color:#FFFFFF;
+	margin-left: 40px;
+}
+.foter .lancer ul {list-style: none;}
+.foter .lancer ul li{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	color:#858990;
+	
+}
+.foter .lancer ul li:hover{
+	color: #E6E6E7;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.lancer .temp > img {
+	margin-bottom: 30px;
+	margin-left: 37px;
+}
+.lancer .tempt{
+		margin-left: 37px;
+        
+}
+.lancer .tempt > i {
+	margin-right: 7px;
+	color: #F0F1F2;
+}
+.lancer .tempt .fa-facebook:hover{
+	color: #1877F2;
+	cursor: pointer;
+}
+.lancer .tempt .fa-twitter:hover{
+	cursor: pointer;
+	color: #00B6F1;
+}
+.lancer .tempt .fa-youtube:hover{
+	cursor: pointer;
+	color: #FF0000;
+}
+.lancer .tempt .fa-instagram:hover{
+	cursor: pointer;
+	color: #C32AA3;
+}
+.foter .hr{
+	height: 0.6px;
+	border: none;
+	background-color: #2B3340;
+	margin-top: 100px;
+	
+}
+.foter .total {
+	margin-top: 20px;
+}
+.foter .total .user {
+	float: left;
+}
+.foter .total .user p {
+	color: #EFF7F7;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 10px;
+	margin-right: 185px;
+}
+.foter .total .ex p {
+	font-size: 11px;
+	line-height: 16px;
+	margin-right: 40px;
+}
+/*
+.freelancer .lance {
+	width: 20%;
+	overflow: hidden;
+}
+.freelancer .lance h2 {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color:#FFFFFF;
+}
+.freelancer .lancer ul {
+  list-style: none;
+}
+.freelancer .lancer ul 
+/* End foter */
+
+/* start fram work */
+.fl-left{float: left;}
+.fl-right{float:right;}
+.cl{
+	clear: both;
+}
+span {
+	text-transform: uppercase;
+}
+
+/* end fram work */
